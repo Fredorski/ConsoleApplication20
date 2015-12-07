@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractus\Vehicle.cs" />
+    <Compile Include="Bil.cs" />
+    <Compile Include="Cool.cs" />
+    <Compile Include="Cyckel.cs" />
+    <Compile Include="Fordon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

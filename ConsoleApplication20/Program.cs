@@ -10,7 +10,24 @@ namespace ConsoleApplication20
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hej");
+            //Virtualis();
+            Vehicle vehicle = new Car();
+            vehicle.Print();
+                
+            Console.ReadLine();
+
+        }
+
+        private static void Virtualis()
+        {
+            Cyckel cyckel = new Cyckel();
+            Fordon fordon = (Fordon)cyckel;
+            Bil bil = new Bil();
+            Fordon[] fordonare = new Fordon[3] { cyckel, fordon, bil };
+            foreach (var item in fordonare)
+            {
+                item.Print();
+            }
         }
     }
 }
