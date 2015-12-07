@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication20", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKisseKatt", "DemoKisseKatt\DemoKisseKatt.csproj", "{493F3FD3-9F4D-4B61-AEE6-D22384ED182E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionThings", "ExtensionThings\ExtensionThings.csproj", "{EE577113-C197-40C3-84C7-3841043486C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{493F3FD3-9F4D-4B61-AEE6-D22384ED182E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{493F3FD3-9F4D-4B61-AEE6-D22384ED182E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{493F3FD3-9F4D-4B61-AEE6-D22384ED182E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE577113-C197-40C3-84C7-3841043486C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE577113-C197-40C3-84C7-3841043486C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE577113-C197-40C3-84C7-3841043486C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE577113-C197-40C3-84C7-3841043486C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
