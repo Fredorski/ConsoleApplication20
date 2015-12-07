@@ -10,6 +10,14 @@ namespace DemoKisseKatt
     {
         static void Main(string[] args)
         {
+            Animal cat = new Cat() { Name = "Kajsa", Age=5 };
+            //cat.PrintInfo();
+            Console.WriteLine(cat);
+
+            Animal dog = new Dog() { Name = "Dogelito", Age=100 };
+            //dog.PrintInfo();
+            Console.WriteLine(dog);
+            Console.ReadLine();
         }
     }
 }
