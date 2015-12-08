@@ -10,6 +10,7 @@ namespace ExtensionThings
     {
         public static string Dotify(this string text)
         {
+            if (text == null) throw new ArgumentNullException(nameof(text));
             string result = text.Trim();
             if (result[result.Length - 1] != '.')
                 return result + '.';
