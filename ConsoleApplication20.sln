@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKisseKatt", "DemoKisseK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionThings", "ExtensionThings\ExtensionThings.csproj", "{EE577113-C197-40C3-84C7-3841043486C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konverteringar", "Konverteringar\Konverteringar.csproj", "{DF22560A-612B-401A-A2C1-1DAB3A135BB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EE577113-C197-40C3-84C7-3841043486C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE577113-C197-40C3-84C7-3841043486C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE577113-C197-40C3-84C7-3841043486C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF22560A-612B-401A-A2C1-1DAB3A135BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF22560A-612B-401A-A2C1-1DAB3A135BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF22560A-612B-401A-A2C1-1DAB3A135BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF22560A-612B-401A-A2C1-1DAB3A135BB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
