@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionThings", "Extensio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konverteringar", "Konverteringar\Konverteringar.csproj", "{DF22560A-612B-401A-A2C1-1DAB3A135BB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kollektioner", "Kollektioner\Kollektioner.csproj", "{D58E4B0E-6464-4C13-B563-991C487A734D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DF22560A-612B-401A-A2C1-1DAB3A135BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF22560A-612B-401A-A2C1-1DAB3A135BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF22560A-612B-401A-A2C1-1DAB3A135BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58E4B0E-6464-4C13-B563-991C487A734D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58E4B0E-6464-4C13-B563-991C487A734D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58E4B0E-6464-4C13-B563-991C487A734D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58E4B0E-6464-4C13-B563-991C487A734D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
