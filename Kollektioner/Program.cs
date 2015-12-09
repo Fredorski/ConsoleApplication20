@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,6 +15,46 @@ namespace Kollektioner
             //Lista2();
             //ListaBus();
             //FlyLista();
+            //ClearList();
+            //ArraySyntaxIntisar();
+            // IndexOfMethod();
+            //System.Threading.Thread.Sleep(4000);
+            //Uppgift skapa 3 flygplan och sortera dem med sort()
+            var planes = new List<AirPlane>()
+            {
+                new AirPlane(seats: 2, pilots: 1),
+                new AirPlane(seats: 4, pilots: 2),
+                new AirPlane(seats: 88, pilots: 3),
+                new AirPlane(seats: 29, pilots: 4),
+                new AirPlane(seats: 212, pilots: 5),
+                new AirPlane(seats: 12, pilots: 2),
+                new AirPlane(seats: 232, pilots: 3),
+                new AirPlane(seats: 32, pilots: 3),
+                new AirPlane(seats: 882, pilots: 5),
+                new AirPlane(seats: 82, pilots: 10),
+            };
+            planes.Sort();
+            planes.Reverse();
+            foreach (var airPlane in planes)
+            {
+                Console.WriteLine(airPlane);
+            }
+            Console.ReadLine();
+        }
+
+        private static void IndexOfMethod()
+        {
+            List<int> tal = new List<int>
+                (new int[] {3, 2, 3, 2, 29, 33, 32});
+            int indexPosition = tal.IndexOf(29); //position 4 är första förekomsten av 29
+            Console.WriteLine(indexPosition); //skriver 4
+            indexPosition = tal.IndexOf(17);
+
+            Console.WriteLine(indexPosition);
+        }
+
+        private static void ClearList()
+        {
             var lista = new List<bool>() {true, false, false, true};
             lista.Add(true);
             lista.Add(false);
@@ -22,12 +63,6 @@ namespace Kollektioner
             Console.WriteLine(lista.Count); //antal element
             lista.Clear();
             Console.WriteLine(lista.Count);
-
-            //ArraySyntaxIntisar();
-
-
-            //System.Threading.Thread.Sleep(4000);
-            Console.ReadLine();
         }
 
         private static void ArraySyntaxIntisar()
