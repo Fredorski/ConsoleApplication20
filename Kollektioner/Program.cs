@@ -13,12 +13,27 @@ namespace Kollektioner
             //Lista1();
             //Lista2();
             //ListaBus();
-            var jas39 = new AirPlane(seats: 5, pilots: 2);
-            var jas40 = new AirPlane(seats: 7, pilots: 0);
-            var planes = new List<AirPlane>() {jas39, jas40};
+            //FlyLista();
+
+            var storlekar= new List<int>() {3,32,3,23,1,132,1,34,1,234,2341,2341,23412,34};
+            var kopia = storlekar; //Pekar på samma objekt på heapen
+            storlekar.Sort();
+            //storlekar.Reverse();
+            foreach (var s in kopia) 
+            {
+                Console.WriteLine(s);
+            }
 
             //System.Threading.Thread.Sleep(4000);
             Console.ReadLine();
+        }
+
+        private static void FlyLista()
+        {
+            var jas39 = new AirPlane(seats: 5, pilots: 2);
+            var jas40 = new AirPlane(seats: 7, pilots: 0);
+            jas39.Seats = 5;
+            var planes = new List<AirPlane>() {jas39, jas40};
         }
 
         private static void ListaBus()

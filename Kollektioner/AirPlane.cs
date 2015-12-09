@@ -8,7 +8,7 @@ namespace Kollektioner
 {
     class AirPlane
     {
-        public int Seats { get; private set; }
+        public int Seats { get; internal set; }
         public int Pilots { get; private set; }
 
         public AirPlane(int seats, int pilots)
