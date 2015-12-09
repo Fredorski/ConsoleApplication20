@@ -23,7 +23,9 @@ namespace Kollektioner
         }
 
         public int CompareTo(AirPlane obj)
-        {            
+        {
+            if (obj == null)
+                throw new ArgumentNullException(nameof(obj));
             return obj.Pilots.CompareTo(this.Pilots);
         }
     }
