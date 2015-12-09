@@ -14,18 +14,36 @@ namespace Kollektioner
             //Lista2();
             //ListaBus();
             //FlyLista();
+            var lista = new List<bool>() {true, false, false, true};
+            lista.Add(true);
+            lista.Add(false);
+            lista.Add(true);
+            lista.Add(true);
+            Console.WriteLine(lista.Count); //antal element
+            lista.Clear();
+            Console.WriteLine(lista.Count);
 
-            var storlekar= new List<int>() {3,32,3,23,1,132,1,34,1,234,2341,2341,23412,34};
-            var kopia = storlekar; //Pekar på samma objekt på heapen
-            storlekar.Sort();
-            //storlekar.Reverse();
-            foreach (var s in kopia) 
-            {
-                Console.WriteLine(s);
-            }
+            //ArraySyntaxIntisar();
+
 
             //System.Threading.Thread.Sleep(4000);
             Console.ReadLine();
+        }
+
+        private static void ArraySyntaxIntisar()
+        {
+            var storlekar = new List<int>() {3, 32, 3, 23, 1, 132, 1, 34, 1, 234, 2341, 2341, 23412, 34};
+            var kopia = storlekar; //Pekar på samma objekt på heapen
+            storlekar.Sort();
+            //storlekar.Reverse();
+            //foreach (var s in kopia) 
+            //{
+            //    Console.WriteLine(s);
+            //}
+            for (int i = 0; i < storlekar.Count; i++)
+            {
+                Console.WriteLine(storlekar[i]);
+            }
         }
 
         private static void FlyLista()
