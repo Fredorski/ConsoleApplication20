@@ -13,6 +13,10 @@ namespace StruktOperatorOverlagring
             Cycle timCycle = new Cycle(3,21);
             Cycle zebbeCycle = new Cycle(1,2);
             zebbeCycle += 12;
+            int tal = 12 + zebbeCycle;
+            Console.WriteLine("tal+cycle="+ tal);
+            zebbeCycle = zebbeCycle - 7;
+            zebbeCycle -= 7;
             Console.WriteLine(zebbeCycle);
             Console.ReadLine();
         }

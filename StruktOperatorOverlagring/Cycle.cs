@@ -37,6 +37,18 @@ namespace StruktOperatorOverlagring
             cycle.max -= tal;
             return cycle;
         }
+
+        public static int operator -(int tal, Cycle cykle)
+        {
+            tal -= cykle.max;
+            return tal;
+        }
+        public static int operator +(int tal, Cycle cykle)
+        {
+            tal += cykle.max;
+            return tal;
+        }
+
         public override string ToString()
         {
             return $"Val{Val}: Min{min}: Max{max}";
