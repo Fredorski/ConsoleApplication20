@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kollektioner", "Kollektione
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventarie", "Inventarie\Inventarie.csproj", "{89FF952D-EFDF-4AAA-9BDD-AF9FE66E6BD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structisar", "Structisar\Structisar.csproj", "{37F35321-E638-44AE-81F6-9A9E15B27C17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{89FF952D-EFDF-4AAA-9BDD-AF9FE66E6BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89FF952D-EFDF-4AAA-9BDD-AF9FE66E6BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89FF952D-EFDF-4AAA-9BDD-AF9FE66E6BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F35321-E638-44AE-81F6-9A9E15B27C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F35321-E638-44AE-81F6-9A9E15B27C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F35321-E638-44AE-81F6-9A9E15B27C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F35321-E638-44AE-81F6-9A9E15B27C17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
