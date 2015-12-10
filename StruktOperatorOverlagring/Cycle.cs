@@ -16,7 +16,7 @@ namespace StruktOperatorOverlagring
             this.min = min;
             this.max = max;
         }
-
+        //lillan
         public int Val
         {
             get { return val; }
