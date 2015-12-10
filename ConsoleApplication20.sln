@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StruktOperatorOverlagring",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatingThings", "CatingThings\CatingThings.csproj", "{0E5BA4E2-BA46-48D9-BD3E-3D9400A491EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumMeny", "EnumMeny\EnumMeny.csproj", "{94F15955-A40B-4A51-BDA5-F875989FC046}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{0E5BA4E2-BA46-48D9-BD3E-3D9400A491EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E5BA4E2-BA46-48D9-BD3E-3D9400A491EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E5BA4E2-BA46-48D9-BD3E-3D9400A491EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F15955-A40B-4A51-BDA5-F875989FC046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F15955-A40B-4A51-BDA5-F875989FC046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F15955-A40B-4A51-BDA5-F875989FC046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F15955-A40B-4A51-BDA5-F875989FC046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
