@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace CatingThings
 {
+    /*Uppgift 
+    skapa en Point med X och Y
+    skapa en Point3D med X Y Z
+    casta mellan point och point3d -> båda hållen...
+    
+        
+        */
     class Program
     {
         static void Main(string[] args)
