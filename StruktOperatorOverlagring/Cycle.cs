@@ -33,6 +33,7 @@ namespace StruktOperatorOverlagring
             //Om klass gör vi så här:
             //Om vi skapat referenstyp/class måste vi skapa en kopia som vi returnerar så att inte det objekt som skickas in pekas på från 2 eller fler ställen...
            // return new Cycle(1, cycle.max += tal);
+           //hej
 
             cycle.max += tal;
             return cycle;
