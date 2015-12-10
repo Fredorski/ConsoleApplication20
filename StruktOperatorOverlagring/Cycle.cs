@@ -12,25 +12,31 @@ namespace StruktOperatorOverlagring
         //Växlar vald, lägst högst...
         public Cycle(int min, int max)
         {
-            val = min;
+            //val = min;
             this.min = min;
             this.max = max;
         }
 
-        public int Val {
+        public int Val
+        {
             get { return val; }
             set
             {
-                if(value>=min && value<=max)
+                if (value >= min && value <= max)
                     val = value;
                 val = min;
-            } 
+            }
         }
 
         public static Cycle operator +(Cycle cycle, int tal)
         {
+            //Om klass gör vi så här:
+            //Om vi skapat referenstyp/class måste vi skapa en kopia som vi returnerar så att inte det objekt som skickas in pekas på från 2 eller fler ställen...
+           // return new Cycle(1, cycle.max += tal);
+
             cycle.max += tal;
             return cycle;
+
         }
         public static Cycle operator -(Cycle cycle, int tal)
         {
