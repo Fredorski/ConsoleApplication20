@@ -12,7 +12,7 @@ namespace StruktOperatorOverlagring
         //Växlar vald, lägst högst...
         public Cycle(int min, int max)
         {
-            //val = min;
+            val = min;
             this.min = min;
             this.max = max;
         }
