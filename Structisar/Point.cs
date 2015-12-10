@@ -10,7 +10,6 @@ namespace Structisar
     {
         public int X;
         public int Y;
-
         /*
             - man får inte göra en tom konstruktor
             - om man gör en överlagrad konstruktor måste man sätta
@@ -22,11 +21,16 @@ namespace Structisar
             X = x;
             Y = 7;
         }
-
         public Point(int x, int y)
         {
             X = x;
             Y = y;
         }
+
+        public int GetXy()
+        {
+            return X + Y;
+        }
+
     }
 }

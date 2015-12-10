@@ -16,6 +16,7 @@ namespace Structisar
             ett.Y = 5;
             ett = new Point(0);
             Console.WriteLine("X:{0}, Y:{1}", ett.X, ett.Y);
+            Console.WriteLine(ett.GetXy());
             Console.ReadLine();
         }
 
