@@ -16,12 +16,14 @@ namespace IConparableNgnting
             //4. Skriv ut collectionen
 
             var lista = new List<RGB>();
-            lista.Add(new RGB(33,34,35));
+            lista.Add(new RGB(33, 34, 35));
             lista.Add(new RGB(0, 34, 45));
             lista.Add(new RGB(22, 0, 35));
             lista.Add(new RGB(133, 34, 0));
             lista.Add(new RGB(34, 0, 78));
-            lista.Sort();
+            lista.Sort(); //Funkar pga IComparable<T> är implementerat :-)
+            lista.ForEach(Console.WriteLine);
+            Console.ReadLine();
         }
     }
 }
