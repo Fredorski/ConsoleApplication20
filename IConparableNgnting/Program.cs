@@ -10,9 +10,10 @@ namespace IConparableNgnting
     {
         static void Main(string[] args)
         {
-            //Skapa en POCO-klass med 3 attribut (3min)
-            //Lägg 5 instanser av klassen i en collection (3min)
-            //Använd sort() på collectinen
+            //1. Skapa en POCO-klass med 3 attribut (3min)
+            //2. Lägg 5 instanser av klassen i en collection (3min)
+            //3. Använd sort() på collectinen
+            //4. Skriv ut collectionen
         }
     }
 }
