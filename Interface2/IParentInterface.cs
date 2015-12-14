@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Interface2
+{
+    internal interface IParentInterface
+    {
+        void ParentMethod();
+    }
+
+    interface IChildInterface : IParentInterface
+    {
+        void ChildMethod();
+    }
+}
