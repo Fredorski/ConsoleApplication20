@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumMeny", "EnumMeny\EnumMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumLurum", "EnumLurum\EnumLurum.csproj", "{59EE2FD3-C91D-49D4-BD81-8149A164E7D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaceus", "Interfaceus\Interfaceus.csproj", "{C7007BEC-5DEA-4B3C-A07F-3AA9A715B38F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{59EE2FD3-C91D-49D4-BD81-8149A164E7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59EE2FD3-C91D-49D4-BD81-8149A164E7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59EE2FD3-C91D-49D4-BD81-8149A164E7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7007BEC-5DEA-4B3C-A07F-3AA9A715B38F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7007BEC-5DEA-4B3C-A07F-3AA9A715B38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7007BEC-5DEA-4B3C-A07F-3AA9A715B38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7007BEC-5DEA-4B3C-A07F-3AA9A715B38F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
