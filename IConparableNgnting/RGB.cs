@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace IConparableNgnting
 {
-    class RGB
+    class RGB: IComparable<RGB>
     {
         public int R { get; set; }
         public int G { get; set; }
         public int  B { get; set; }
-
         public RGB(int r, int g, int b)
         {
             R = r;
@@ -19,10 +18,17 @@ namespace IConparableNgnting
             B = b;
         }
 
+        public int CompareTo(RGB other)
+        {
+            return R.CompareTo(other.R);
+        }
+
         public override string ToString()
         {
             return string.Format
                 ("R:{0},G:{1},B:{2}", R, B, G);
         }
+
+      
     }
 }
