@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaceus", "Interfaceus\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface2", "Interface2\Interface2.csproj", "{51A27A51-34F3-4BDD-9B34-916C14D59B28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IConparableNgnting", "IConparableNgnting\IConparableNgnting.csproj", "{F90CFAA2-7841-47F8-B087-9F9A6E6969B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{51A27A51-34F3-4BDD-9B34-916C14D59B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A27A51-34F3-4BDD-9B34-916C14D59B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A27A51-34F3-4BDD-9B34-916C14D59B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90CFAA2-7841-47F8-B087-9F9A6E6969B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90CFAA2-7841-47F8-B087-9F9A6E6969B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90CFAA2-7841-47F8-B087-9F9A6E6969B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90CFAA2-7841-47F8-B087-9F9A6E6969B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

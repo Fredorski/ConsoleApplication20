@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace Interface2
 {
-    class Program :IChildInterface
+    class Program : IChildInterface
     {
         static void Main(string[] args)
         {
-           Program program = new Program();
-            program.ChildMethod();
-            program.ParentMethod();
+            Program program = new Program();
+            //program.ChildMethod();
+            //program.ParentMethod();
+            var arv = new ArvFromEttTvauInterfacen();
+            IEtt ittan = (IEtt) arv;
+
             Console.ReadLine();
         }
 
