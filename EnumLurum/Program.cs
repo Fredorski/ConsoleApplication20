@@ -15,10 +15,12 @@ namespace EnumLurum
     {
         static void Main(string[] args)
         {
-            PrintMenuWithEnums();
             bool loopa = true;
             do
             {
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.White;
+                PrintMenuWithEnums();
                 int tal;
                 if (int.TryParse(Console.ReadLine(), out tal))
                 {
@@ -43,9 +45,10 @@ namespace EnumLurum
                             break;
                         default:
                             //throw new ArgumentOutOfRangeException();
-                            Console.WriteLine("Something wnt wrong... Please try again");
+                            Console.WriteLine("Something went wrong... Please try again");
                             break;
                     }
+                    System.Threading.Thread.Sleep(3000);
                 }
             } while (loopa); 
             Console.ReadLine();
