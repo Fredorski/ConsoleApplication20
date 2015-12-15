@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace Felhantering
 {
@@ -10,8 +11,22 @@ namespace Felhantering
     {
         static void Main(string[] args)
         {
-            //FirstTryCatch();
-            Class2.Method();
+            try
+            {
+                //FirstTryCatch();
+                Class2.Method();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Hanterat här i MAIN!!!");
+                //throw new Exception();
+            }
+           
+                //Oavsett vad som skett om det gick bra eller om vi hamnade i en catch
+                //så kommer det som står här att göras efter
+                Console.WriteLine("Efter allt");
+            
+         
             Console.ReadLine();
         }
 

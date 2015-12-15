@@ -36,10 +36,17 @@ namespace Felhantering
             {
                 Console.WriteLine(ex.Message);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 Console.WriteLine("Hanterar allt");
+                throw ex;
+
             }
+            finally
+            {
+                Console.WriteLine("STÄNG Databasen!!!");
+            }
+            Console.WriteLine("Eftersläntare");
         }
     }
 }
