@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface2", "Interface2\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IConparableNgnting", "IConparableNgnting\IConparableNgnting.csproj", "{F90CFAA2-7841-47F8-B087-9F9A6E6969B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felhantering", "Felhantering\Felhantering.csproj", "{B32183D7-3BD4-4877-9113-08BB5AEE412C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{F90CFAA2-7841-47F8-B087-9F9A6E6969B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F90CFAA2-7841-47F8-B087-9F9A6E6969B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F90CFAA2-7841-47F8-B087-9F9A6E6969B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32183D7-3BD4-4877-9113-08BB5AEE412C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32183D7-3BD4-4877-9113-08BB5AEE412C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32183D7-3BD4-4877-9113-08BB5AEE412C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32183D7-3BD4-4877-9113-08BB5AEE412C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
